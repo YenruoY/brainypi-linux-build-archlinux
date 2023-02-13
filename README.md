@@ -20,14 +20,14 @@ Please take a look at [Known Issues](#9-known-issues).
 
 1.  [Prepare system for building Linux](#3-prepare-system-for-building-linux) 
 1.  [Download source code](#4-download-source-code)
-1.  [Compile Uboot, Kernel and Ubuntu](#5-compile-uboot-kernel-and-ubuntu)
+1.  [Compile Uboot, Kernel and ArchLinux](#5-compile-uboot-kernel-and-arch)
     1.  [Compile Uboot](#5i-compile-uboot) 
     1.  [Compile Kernel](#5ii-compile-kernel)
-    1.  [Building ArchLinux rfs](#5iii-build-ubuntu)
+    1.  [Building ArchLinux rfs](#5iii-build-arch)
 		1. Minimal RFS
 		1. Installing and configuring i3-WM
-1.  [Generate ArchLinux image](#6-generate-ubuntu-image)
-1.  [Flashing ArchLinux image to BrainyPi](#7-flashing-ubuntu-image-to-brainypi)
+1.  [Generate ArchLinux image](#6-generate-arch-image)
+1.  [Flashing ArchLinux image to BrainyPi](#7-flashing-image-to-brainypi)
 
 ## 3. Prepare system for building Linux 
 
@@ -64,7 +64,7 @@ cd brainypi-linux-build-archlinux
 git submodule update --init --recursive
 ```
 
-## 5. Compile Uboot, Kernel and Ubuntu
+## 5. Compile Uboot, Kernel and ArchLinux
 
 ### 5.1 Compile Uboot
 

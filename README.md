@@ -59,7 +59,7 @@ Please take a look at [Known Issues](#9-known-issues).
 ## 4. Download source code 
 
 ```sh
-https://github.com/YenruoY/brainypi-linux-build-archlinux.git
+git clone https://github.com/brainypi/brainypi-linux-build.git
 cd brainypi-linux-build-archlinux
 git submodule update --init --recursive
 ```
